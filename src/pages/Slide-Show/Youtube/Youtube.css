@@ -1,0 +1,48 @@
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+.carousel-content h1 {
+  font-size: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+}
+.carousel-content p {
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4c4c4c;
+  text-align: center;
+
+}
+.carousel-content a {
+  color: #000;
+}
+.carousel-content a:hover {
+  color: Red;
+}
+.carousel .carousel-indicators {
+  margin-bottom: -3rem;
+}
+.carousel .carousel-indicators button {
+  height: 13px;
+  width: 13px;
+  border-radius: 100%;
+  background-color: #000;
+}
+@media (max-width: 500px) {
+    
+  .carousel .carousel-indicators {
+    margin-bottom: -2rem;
+  }
+  .carousel .carousel-indicators button {
+    height: 11px;
+    width: 11px;
+  }
+  .carousel-content h1 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+}

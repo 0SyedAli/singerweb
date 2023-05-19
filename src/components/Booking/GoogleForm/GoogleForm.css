@@ -1,0 +1,14 @@
+.GoogleForm {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.GoogleForm iframe {
+    width: 100%;
+}
+.GoogleForm h1,h2,h3 {
+    text-align: center;
+}
